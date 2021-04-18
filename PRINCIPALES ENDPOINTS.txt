@@ -1,0 +1,11 @@
+PRINCIPALES ENDPOINTS
+
+
+POST /api/filldata   => pone datos de prueba en la bd
+
+POST /api/auth/register      /* name, username, password, avatar(foto)  */
+POST /api/auth/login         /* username, password. Devuelve el access_token */
+
+
+POST /api/shop/sellAnimal    /* petName: string, animalId: int. Necesita access_token */
+POST /api/shop/              /* Muestra todas las tiendas. Necesita access_token */
