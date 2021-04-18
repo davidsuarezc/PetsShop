@@ -29,3 +29,5 @@ Backend en Node.js y express de tienda de mascotas. Usando jsonwebtoken para la 
 cd PetsShop
 npm run dev
 ```
+
+En el fichero PRINCIPALES ENDPOINTS.txt como su nombre lo indica, se pueden encontrar los endpoints de la app, así como sus verbos HTTP.
